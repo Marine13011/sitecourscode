@@ -1,0 +1,50 @@
+html{
+	text-align: justify;
+	font-family: oswald;
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;
+}
+header{
+	background-color: #ff7f00;
+}
+.blocgauche{
+	float:left;
+	width: 40%;
+}
+.blocdroite{
+	float:right;
+	width: 60%;
+}
+.page{
+	width: 100%;
+	position: relative;
+}
+.blocgauche img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 70px;
+}
+.bloc{
+background-color: #ff7f00;
+}
+.tab{
+	text-align: left;
+	display : grid;
+	grid-template-columns: 0.25fr 1fr;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.colonne1{
+	grid-row: 1;
+	grid-column: 1;
+	margin-left: 20px;
+}
+.colonne2{
+	grid-row: 1;
+	grid-column: 2;
+}
